@@ -1,0 +1,45 @@
+
+Available GPUs: ['NVIDIA L40S']
+
+Loading training data...
+
+The number of training samples is:  250
+
+Initializing the model...
+
+Using MSE Loss for training
+
+Starting training with checkpoint saving every 5 epochs...
+Checkpoints will be saved in './checkpoints/' directory
+
+Epoch 1/10, Average Loss: 2.4028
+
+Epoch 2/10, Average Loss: 2.3932
+
+Epoch 3/10, Average Loss: 2.2570
+
+Epoch 4/10, Average Loss: 2.1743
+
+Epoch 5/10, Average Loss: 2.0566
+Checkpoint saved: checkpoints/MSE/Model_AE_epoch_005.pth
+
+Epoch 6/10, Average Loss: 2.0301
+
+Epoch 7/10, Average Loss: 2.0207
+
+Epoch 8/10, Average Loss: 1.9339
+
+Epoch 9/10, Average Loss: 1.9593
+
+Epoch 10/10, Average Loss: 1.9012
+Checkpoint saved: checkpoints/MSE/Model_AE_epoch_010.pth
+
+
+Training loss saved to training_loss_mse.csv
+
+Final model saved to checkpoints/MSE/Final_Model_AE_MSE.pth
+
+Training pipeline completed!
+Final training loss: 1.9012
+All checkpoints saved in checkpoints/MSE directory.
+

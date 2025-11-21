@@ -1,0 +1,45 @@
+
+Available GPUs: ['NVIDIA L40S']
+
+Loading training data...
+
+The number of training samples is:  250
+
+Initializing the model...
+
+Using SSIM Loss for training
+
+Starting training with checkpoint saving every 5 epochs...
+Checkpoints will be saved in './checkpoints/' directory
+
+Epoch 1/10, Average Loss: 0.9874
+
+Epoch 2/10, Average Loss: 0.9553
+
+Epoch 3/10, Average Loss: 0.9285
+
+Epoch 4/10, Average Loss: 0.9075
+
+Epoch 5/10, Average Loss: 0.8888
+Checkpoint saved: checkpoints/SSIM/Model_AE_epoch_005.pth
+
+Epoch 6/10, Average Loss: 0.8700
+
+Epoch 7/10, Average Loss: 0.8540
+
+Epoch 8/10, Average Loss: 0.8394
+
+Epoch 9/10, Average Loss: 0.8241
+
+Epoch 10/10, Average Loss: 0.8136
+Checkpoint saved: checkpoints/SSIM/Model_AE_epoch_010.pth
+
+
+Training loss saved to training_loss_ssim.csv
+
+Final model saved to checkpoints/SSIM/Final_Model_AE_SSIM.pth
+
+Training pipeline completed!
+Final training loss: 0.8136
+All checkpoints saved in checkpoints/SSIM directory.
+
