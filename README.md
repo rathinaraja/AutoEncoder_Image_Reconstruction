@@ -1,5 +1,9 @@
 # AutoEncoder for Image Reconstruction
 
+From **STARC-9: A Large-scale Dataset for Multi-Class Tissue Classification for CRC Histopathology**, NeruIPS 2025.  <br>
+_Barathi Subramanian, Rathinaraja Jeyaraj, Mitchell Nevin Peterson, Terry Guo, Nigam Shah, Curtis Langlotz, Andrew Y Ng, Jeanne Shen_  
+<a href="https://arxiv.org/abs/2511.00383" target="_blank" rel="noopener"> Paper </a> | [Cite](#Citation) 
+
 ## What is an autoencoder? 
 
 An autoencoder is an unsupervised neural network that compresses an input image into a low-dimensional latent representation and then reconstructs it. By learning to recreate the original image, it captures essential structural and visual patterns, making it useful for feature extraction, denoising, and representation learning, especially in large image datasets.
@@ -22,7 +26,6 @@ This guide provides step-by-step instructions for training an AutoEncoder model 
 ---
 
 ## Table of Contents
-- [Overview](#overview)
 - [Step 1: Prepare Input Images](#step-1-prepare-input-images)
 - [Step 2: Configure Training Parameters](#step-2-configure-training-parameters)
 - [Step 3: Train the Model](#step-3-train-the-model)
@@ -212,10 +215,6 @@ Each Excel file contains:
 
 ---
 
-
-
----
-
 ## Notes
 
 - **GPU Configuration**: Adjust the `GPUs` parameter in `Config.py` to match your available hardware
@@ -225,12 +224,33 @@ Each Excel file contains:
 
 ---
 
-## Citation
+# License & Support
+For issues, questions, or feature requests:
++ This repository is made available under the CC BY-NC 4.0 License and is available for non-commercial academic purposes.
++ Open an issue on GitHub
++ Contact: jrathinaraja@gmail.com
++ Website: https://jrathinaraja.co.in/contact/
 
-If you use this AutoEncoder implementation in your research, please cite the DeepCluster++ paper.
+# Funding
+Funding for this study was provided by the United States National Cancer Institute (NCI), National Institutes of Health (NIH) (R01 CA270437).
 
----
+# Citation
+If you find our work useful in your research or use parts of this code or dataset, please consider citing our paper <a href="https://openreview.net/forum?id=rGWjTlK6Ev" target="_blank" rel="noopener"> Openreview </a>  or <a href="https://arxiv.org/abs/2511.00383" target="_blank" rel="noopener"> Arxiv </a>.  
 
-## Support
+APA 6
+```bash
+Subramanian, B., Jeyaraj, R., Peterson, M. N., Guo, T., Shah, N., Langlotz, C., Ng, A. Y., & Shen, J. (2025). STARC-9: A large-scale dataset for multi-class tissue classification for CRC histopathology. In The Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS) Datasets and Benchmarks Track. https://openreview.net/forum?id=rGWjTlK6Ev
+```
 
-For issues or questions, please open an issue in the repository or contact the maintainers.
+BibTex
+
+```bash
+@inproceedings{
+subramanian2025starc,
+title={{STARC}-9: A Large-scale Dataset for Multi-Class Tissue Classification for {CRC} Histopathology},
+author={Barathi Subramanian and Rathinaraja Jeyaraj and Mitchell Nevin Peterson and Terry Guo and Nigam Shah and Curtis Langlotz and Andrew Y. Ng and Jeanne Shen},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems Datasets and Benchmarks Track},
+year={2025},
+url={https://openreview.net/forum?id=rGWjTlK6Ev}
+}
+```
